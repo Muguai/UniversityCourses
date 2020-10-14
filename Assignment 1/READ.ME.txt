@@ -1,0 +1,33 @@
+### Tanks
+This project was created during a course in Artificial Intelligence at Stockholm University. The program attempts to solve problems in a 2D tank game with the help of AI related solutions.
+
+#### Getting Started - prerequisites for this project
+This project uses the 4.0 alpha 1 version of Processing which can be downloaded through following link:
+https://processing.org/download/
+The 4.0 alpha 1 version of Processing is necessary to get the lambda expressions in the project to function properly.
+The project is implemented to work directly in the Processing IDE and correct functionality in any other IDE 
+could not be guaranteed. In addition to the standard Processing library you will also need to import the independent
+sound library called Minim. This could easily be done through your Processing IDE if you click Sketch -> Import Library -> Add Library in your top left tab window. From there you could find your way to installing the Minim file.
+
+#### Running the tests
+Once you followed the guide given above you should be able to run the code using the start button
+in the Processing IDE.
+
+Every agent must have a GeneralProblem and a problem formulation. A problem is formulated by calling the GeneralProblem constructor 
+and passing defined functions as arguments. In the code the problem formulation is done inside the method formulateGoal(). For more information refer to the GeneralProblem class.
+An agent must also have one instance of the Search class to be able to call the different search algorithms.
+Tank4 uses A* but the algorithm can be substituted for any offline search algorithm in Search by changing the method call in updateLogic.
+Tank5 uses LRTA* and should not be changed.
+
+Several of the functions for different problems are scattered around files Team2 and utility_functions.
+If confused, right click the function name and "Jump to declaration".
+
+#### Contributors & Acknowledgments
+The implementation of this project is mostly done upon ideas presented in Stuart Russell’s and Peter Norvig’s book 
+”Artificial Intelligence - A Modern Approach”, where pseudocode has been used for the implementation of algorithms.
+
+#### Authors
+Group number: 7
+Maximilian Törnqvist
+Mustafa Bay
+Fredrik Hammar
