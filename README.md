@@ -1,1 +1,1 @@
-# 2020 - Parallell and distributed programming (Java, Erlang
+# 2020 - Parallell and distributed programming (Java, Erlang)
