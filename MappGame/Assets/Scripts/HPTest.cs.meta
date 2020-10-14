@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ff7ed0702fbe73b4a860ec5151ea4c8e
+timeCreated: 1523438055
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - explosionAlienship: {fileID: 1401951447029970, guid: cf3697a5b58754b4bbe45607417853c1,
+      type: 2}
+  - turretBody: {instanceID: 0}
+  - turretBrains: {instanceID: 0}
+  - turretGun: {instanceID: 0}
+  - turretLeg: {instanceID: 0}
+  - turretNub: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
