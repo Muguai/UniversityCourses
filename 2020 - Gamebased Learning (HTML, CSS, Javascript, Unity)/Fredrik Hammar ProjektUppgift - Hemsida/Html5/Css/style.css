@@ -1,0 +1,62 @@
+/*Fredrik hammar, frha2022*/
+
+
+body, div, p, input, button {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #5665CC;
+}
+h1 {
+	text-align: center;
+}
+
+div {
+	border: 2px solid grey;
+	width: 250px; 
+	margin: 4px auto;
+	align-content: center;
+	float: inherit;
+    border-radius: 5px;
+    padding: 5px;
+	
+	
+}
+div.radioButtons {
+	border: 0px solid green;
+	align-content: left;
+	margin-left: -50px;
+	
+}
+
+p.QuestionAndAnswer {
+	font-size: 32px;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input {
+	font-size: 25px;
+	text-align: center;
+	width: 120px;
+	margin: 10px 0px 20px 60px;
+
+}
+button:hover {
+	height: 30px;
+	background-color: orange;
+	color: white;
+	transition: color 0.5s, background-color 0.5s, height 0.5s;
+}
+button {
+	
+	width: 250px;
+	height: 35px;
+	margin: auto;
+	margin-bottom: 20px;
+}

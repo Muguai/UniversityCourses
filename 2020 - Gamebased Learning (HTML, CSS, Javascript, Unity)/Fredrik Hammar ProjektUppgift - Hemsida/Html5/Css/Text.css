@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: orangered;
+  /*  background-size: 100% 100%; */
+       
+}
+h1 {
+	font-family:Georgia, "Times New Roman", serif;
+    font-size: 22pt;
+}
+nav{
+    display:block;
+    color:black;
+    font-size: 12pt;
+    width: 400px;
+    border:2px solid;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+	font-family:Georgia, "Times New Roman", serif;
+    font-size: 14pt;    
+    margin-left: 25pt;
+}
+
+ a {
+     font-family:Georgia, "Times New Roman", serif;
+     font-size: 16pt;
+     color: pink;
+  /*   background-color: #FFFFFF;*/
+  }
+  section#Intro {
+    width: 700px;
+    border:2px solid;
+    border-radius: 25px;
+    padding: 5px;
+
+  }
+
+  p.PersonligtIntro{
+    margin-left: 20pt;
+    color: rgb(55, 0, 128);
+}
+h1.main_header{
+  margin-left: 35pt;
+  font-size: 16pt;
+}
+  /*
+  section#Qoute {
+    width: 300px;
+    border: dotted;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  */

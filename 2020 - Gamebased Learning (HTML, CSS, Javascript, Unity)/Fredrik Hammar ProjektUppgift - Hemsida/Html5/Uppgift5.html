@@ -1,0 +1,60 @@
+<!--Fredrik hammar, frha2022-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <script src="Js/MathQuizGame.js"></script>
+
+    <h1>
+        Math Quiz!
+    </h1>
+
+    <section>
+
+        <div id = "qnaBorder1">
+            <section>
+                <div class = "radioButtons">
+                    <input type="radio" class="radioButtons" id="multiply" name="math" value="multiply" checked="checked">
+                    <label for="multiply" id="LABELmultiply" >Multiply</label>
+                </div>
+                <div class = "radioButtons">
+                    <input type="radio" class="radioButtons" id="subtract" name="math" value="subtract">
+                    <label for="subtract" id="LABELsubtract">Subtract</label>
+                </div>
+                <div class = "radioButtons" id="LABELaddition">
+                    <input type="radio" class="radioButtons" id="addition" name="math" value="addition">
+                    <label for="addition">Addition</label>
+                </div>
+            </section>
+            <button id="buttonNewQuiz">Give me another question</button>
+            <p class="QuestionAndAnswer" id="Question">What is:</p>
+        </div>
+        <div id = "qnaBorder2">
+            <p class="QuestionAndAnswer" id="points">Your points: 0</p>
+            <p class="QuestionAndAnswer" id="answer">Your answer </p>
+            <input id="inputNumber" maxlength="5" type="text">
+            <button id="buttonGuess">Press to Guess</button>
+        </div>
+    </section>
+
+    <section>
+        <footer>
+            <p class="QuestionAndAnswer" id="solution"></p>
+        </footer>
+    </section>
+    <footer>
+       <button onclick="window.location.href='https://people.dsv.su.se/~frha2022/';">Tillbaka till startsida</button>
+    </footer>
+
+
+</body>
+
+</html>

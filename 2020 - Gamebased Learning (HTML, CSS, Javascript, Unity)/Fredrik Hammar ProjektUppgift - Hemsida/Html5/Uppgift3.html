@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Css/Text.css" />
+    <title>Document</title>
+    <style>
+        body {
+
+            height: 100%;
+            margin: 0;
+            background-size: 550px 400px;
+            /*  background-size: 100% 100%; */
+            /* Full height */
+            /* The image used */
+            background-image: url("Image/BG.png");
+
+            /* Full height */
+
+            /* Center and scale the image nicely */
+            background-repeat: no-repeat;
+
+        }
+
+
+        #ccontainer {
+            width: 550px;
+            margin: 0auto;
+            margin-top: 100px;
+        }
+    </style>
+    <script src="Js/QuizGame.js">
+    </script>
+</head>
+
+<body>
+    <!-- <div class="bg"></div>  -->
+    <div id="ccontainer">
+        <canvas id="myCanvas" width="550" height="400"></canvas>
+    </div>
+
+    <div style="position:relative; left:80px; top:2px; background-color:white;">
+        <heading>
+            <section id="Intro">
+                <h1>Detta är en quiz på 8 frågor. En viss del av svars alternativen kommer bli utsuddade.
+                </h1>
+                <h1>
+                    Om du vill kan du raddera en * åt gången. Försök att klara quizen me så få * bortagna som möjligt
+                    :D.
+                </h1>
+                <section>
+        </heading>
+        <footer>
+            <button onclick="window.location.href='https://people.dsv.su.se/~frha2022/';">Tillbaka till startsida</button>
+        </footer>
+    </div>
+
+</body>
+
+</html>
