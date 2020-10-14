@@ -1,1 +1,1 @@
-# University-Courses
+# 2020 AI (Java, Python)
