@@ -1,0 +1,17 @@
+﻿  EnemySprite.cpp
+c:\users\fredrik hammar\desktop\game\project7\sprite.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Label.cpp
+c:\users\fredrik hammar\desktop\game\project7\labeled.h(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Labeled.cpp
+c:\users\fredrik hammar\desktop\game\project7\labeled.h(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Game.cpp
+c:\users\fredrik hammar\desktop\game\project7\game.cpp(1): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  PlayerSprite.cpp
+c:\users\fredrik hammar\desktop\game\project7\sprite.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Session.cpp
+c:\users\fredrik hammar\desktop\game\project7\sprite.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Sprite.cpp
+c:\users\fredrik hammar\desktop\game\project7\sprite.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  System.cpp
+c:\users\fredrik hammar\desktop\game\project7\system.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...

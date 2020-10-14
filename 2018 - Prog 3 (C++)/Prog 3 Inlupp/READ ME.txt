@@ -1,0 +1,10 @@
+Sökväga.: C:images
+
+alltså läg images mappen i C: och så bör allt vara bra.
+
+Spelet går ut på att pingvninerna har tagit över och du måste undvika dem
+
+Du rör spelaren genom att hålla in muspekare över han och dra runt honom
+du har 30 liv och om du nånsin går ner till 0 liv får du en Game over skärm
+med hur mång sekunder du överlevde och du kan då reseta spelet genom att 
+trycka valfri knapp.
