@@ -1,2 +1,2 @@
-# 2020 - Gamebased Learning (HTML, CSS, Javascript, Unity)
+# 2020 - Gamebased Learning (Unity, C#, HTML, CSS, Javascript)
 # Change branch to see different courses
