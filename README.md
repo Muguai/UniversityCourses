@@ -1,4 +1,4 @@
-# Game Development Project work (Unity, C#, C++)
+# Game Development Project work - Spies and Soldiers (Unity, C#, C++)
 
 During this course we developed a game in Unity. I was in a group of 5 were i coded for the game.
 Our game was a multiplayer social deduction game in the style of Among us.
