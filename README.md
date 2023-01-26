@@ -1,2 +1,2 @@
-# Examples of programming i did during my university courses
+# Data Mining Course 2021 - (Python, ML)
 # Change branch to see different courses
