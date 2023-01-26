@@ -1,6 +1,6 @@
 # 2019 - Game Mechanism (C#, Unity)
 
-A speedracing game made in unity for my GameMechanism course. 
+A speedracing game made in unity for my GameMechanism course. The game is all about conserving your momentum and going fast. 
 I was 1 of 2 Programmer for this game and it was my first venture into 3d.
 
 Screenshots:
