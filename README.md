@@ -1,4 +1,4 @@
-# IoT Course 2021
+# IoT Course 2021 - (Java, C, Raspberry Pi)
 # Garbage bin tracker
 
 In this course i made a Garbage bin tracker. This IoT Device tracks a garbage bins capacity (Through distance sensor) and location (through GPS)
