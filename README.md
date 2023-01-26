@@ -12,7 +12,9 @@ Screenshots:
 
 ![Deduction](https://user-images.githubusercontent.com/37656342/214817713-481e18f1-5b85-49fa-8f21-798fff9d84a7.gif)
 
+![Deduction2](https://user-images.githubusercontent.com/37656342/214818958-d4229707-4923-4b3e-8434-7095e09d5801.gif)
 
+![Spyscreenshot](https://user-images.githubusercontent.com/37656342/214818978-6ad0cae1-bd9b-4de7-9ee9-81ffb5bee35e.png)
 
 
 # Change branch to see different courses
