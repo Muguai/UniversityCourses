@@ -4,18 +4,12 @@ import java.util.Arrays;
 
 
 public abstract class ProbingHashTable<AnyType> {
-	/**
-	 * Construct the hash table.
-	 */
+
 	public ProbingHashTable() {
 		this(DEFAULT_TABLE_SIZE);
 	}
 
-	/**
-	 * Construct the hash table.
-	 * 
-	 * @param size the approximate initial size.
-	 */
+
 	public ProbingHashTable(int size) {
 		if (size < MINIMUM_TABLE_SIZE)
 			size = MINIMUM_TABLE_SIZE;
@@ -26,11 +20,7 @@ public abstract class ProbingHashTable<AnyType> {
 		return array.length;
 	}
 
-	/**
-	 * Insert into the hash table. If the item is already present, do nothing.
-	 * 
-	 * @param x the item to insert.
-	 */
+	
 	public boolean insert(AnyType x) {
 		// Insert x as active
 		int currentPos = findPos(x);
@@ -42,16 +32,13 @@ public abstract class ProbingHashTable<AnyType> {
 		array[currentPos] = new HashEntry<>(x, true);
 		theSize++;
 
-		// Rehash; see Section 5.5
 		if (occupied > array.length / 2)
 			rehash();
 
 		return true;
 	}
 
-	/**
-	 * Expand the hash table.
-	 */
+
 	private void rehash() {
 		HashEntry<AnyType>[] oldArray = array;
 
@@ -70,20 +57,10 @@ public abstract class ProbingHashTable<AnyType> {
 		return array[currentPos] != null && !array[currentPos].element.equals(x);
 	}
 
-	/**
-	 * Method that performs probing resolution.
-	 * 
-	 * @param x the item to search for.
-	 * @return the position where the search terminates.
-	 */
+
 	protected abstract int findPos(AnyType x);
 
-	/**
-	 * Remove from the hash table.
-	 * 
-	 * @param x the item to remove.
-	 * @return true if item removed
-	 */
+
 	public boolean remove(AnyType x) {
 		int currentPos = findPos(x);
 		if (isActive(currentPos)) {
@@ -94,30 +71,15 @@ public abstract class ProbingHashTable<AnyType> {
 			return false;
 	}
 
-	/**
-	 * Get current size.
-	 * 
-	 * @return the size.
-	 */
+	
 	public int size() {
 		return theSize;
 	}
 
-	/**
-	 * Get length of internal table.
-	 * 
-	 * @return the size.
-	 */
 	public int capacity() {
 		return array.length;
 	}
 
-	/**
-	 * Find an item in the hash table.
-	 * 
-	 * @param x the item to search for.
-	 * @return the matching item.
-	 */
 	public boolean contains(AnyType x) {
 		int currentPos = findPos(x);
 
@@ -126,22 +88,13 @@ public abstract class ProbingHashTable<AnyType> {
 		return isActive(currentPos);
 	}
 
-	/**
-	 * Return true if currentPos exists and is active.
-	 * 
-	 * @param currentPos the result of a call to findPos.
-	 * @return true if currentPos is active.
-	 */
 	protected boolean isActive(int currentPos) {
 		return array[currentPos] != null && array[currentPos].isActive;
 	}
 	protected HashEntry<AnyType>[] getArray() {
 		return  array;
 	}
-
-	/**
-	 * Make the hash table logically empty.
-	 */
+	
 	public void makeEmpty() {
 		doClear();
 	}
@@ -194,21 +147,10 @@ public abstract class ProbingHashTable<AnyType> {
 	private int occupied; // The number of occupied cells
 	private int theSize; // Current size
 
-	/**
-	 * Internal method to allocate array.
-	 * 
-	 * @param arraySize the size of the array.
-	 */
 	private void allocateArray(int arraySize) {
 		array = new HashEntry[nextPrime(arraySize)];
 	}
-
-	/**
-	 * Internal method to find a prime number at least as large as n.
-	 * 
-	 * @param n the starting number (must be positive).
-	 * @return a prime number larger than or equal to n.
-	 */
+	
 	private static int nextPrime(int n) {
 		if (n % 2 == 0)
 			n++;
@@ -219,12 +161,6 @@ public abstract class ProbingHashTable<AnyType> {
 		return n;
 	}
 
-	/**
-	 * Internal method to test if a number is prime. Not an efficient algorithm.
-	 * 
-	 * @param n the number to test.
-	 * @return the result of the test.
-	 */
 	protected static final boolean isPrime(int n) {
 		if (n == 2 || n == 3)
 			return true;

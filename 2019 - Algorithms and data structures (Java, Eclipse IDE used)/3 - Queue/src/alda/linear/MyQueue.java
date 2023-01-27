@@ -119,13 +119,6 @@ public class MyQueue<E> implements Iterable<E>, ALDAQueue<E> {
 		return CurrentCapacity;
 	}
 
-	/**
-	 * Move all elements equal to e to the end of the queue.
-	 * 
-	 * @param e
-	 * @throws NullPointerException if e is null.
-	 * @return the number of elements moved.
-	 */
 	public int discriminate(E e) {
 		if (e == null) {
 			throw new NullPointerException();
